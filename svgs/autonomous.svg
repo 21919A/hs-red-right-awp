@@ -167,10 +167,10 @@
 <circle cx="-1200" cy="-1200" r="63" stroke="#5555cc" fill="none" stroke-width="51"/>
 <circle cx="-1200" cy="-1200" r="89" fill="none" stroke="#000000" stroke-width="3"/>
 <circle cx="-1200" cy="-1200" r="38" fill="none" stroke="#000000" stroke-width="3"/>
-<polyline points="-1497,603 -497,603 -497,603 -593,1145 -593,1145 -386,1318 -386,1318 -86,799" fill="none" stroke="#000000" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1503,597 -503,597 -503,597 -599,1139 -599,1139 -392,1312 -392,1312 -92,793" fill="none" stroke="#000000" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -500,600 -596,1142 -596,1142 -389,1315 -389,1315 -89,796" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -500,600 -596,1142 -596,1142 -389,1315 -389,1315 -89,796" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -500,600 -596,1142 -596,1142 -389,1315 -389,1315 -89,796" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
+<polyline points="-1497,-597 -497,-597 -497,-597 -1029,-224 -1029,-224 -756,-976 -756,-976 -453,-144" fill="none" stroke="#000000" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1503,-603 -503,-603 -503,-603 -1035,-230 -1035,-230 -762,-982 -762,-982 -459,-150" fill="none" stroke="#000000" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1500,-600 -500,-600 -500,-600 -1032,-227 -1032,-227 -759,-979 -759,-979 -456,-147" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
+<polyline points="-1500,-600 -500,-600 -500,-600 -1032,-227 -1032,-227 -759,-979 -759,-979 -456,-147" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
+<polyline points="-1500,-600 -500,-600 -500,-600 -1032,-227 -1032,-227 -759,-979 -759,-979 -456,-147" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
 </g>
 </svg>
