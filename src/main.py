@@ -53,6 +53,7 @@ def autonomous_function():
     pid_driver.drive(800, True)
     pid_turner.turn(40, FRAME_HEADING_RELATIVE)
     wait(50, MSEC)
+    intake_2nd_stage.stop()
 
     pid_driver.drive(-780, True)
     wait(100, MSEC)
