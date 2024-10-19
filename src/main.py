@@ -55,7 +55,7 @@ def autonomous_function():
     wait(50, MSEC)
     intake_2nd_stage.stop()
 
-    pid_driver.drive(-780, True)
+    # pid_driver.drive(-780, True)
     wait(100, MSEC)
     reset_odometry_to_gps()
 
