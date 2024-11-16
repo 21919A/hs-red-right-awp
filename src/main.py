@@ -31,7 +31,7 @@ def autonomous_function():
 
     intake_1st_stage.set_velocity(450, RPM)
     intake_2nd_stage.set_velocity(450, RPM)
-    pid_driver.drive(-1000, False)
+    pid_driver.drive(-1080, False)
 
     clamp.set(True)
     intake_1st_stage.spin(REVERSE)
@@ -42,7 +42,7 @@ def autonomous_function():
 
     pid_turner.turn(40, FRAME_HEADING_RELATIVE)
     intake_retract.set(True)
-    pid_driver.drive(635)
+    pid_driver.drive(670)
     intake_retract.set(False)
     wait(50, MSEC)
     pid_turner.turn(-148, FRAME_HEADING_RELATIVE)
