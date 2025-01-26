@@ -23,18 +23,26 @@ def autonomous_function():
 
     log(("Competition", "competition"), "autonomous_begin")
 
-    # Reset odometry to the starting autonomous position
-    odometry.reset(PositionWithHeading(-1500, -600, -90))
+    # Reset robot position and inertial heading to the starting autonomous position and heading
+    robot_position.reset(Position(-1500, -600))
+    inertial.set_heading(-90)
 
-    # Then try resetting it to GPS if GPS sensor is installed and reports high quality
-    reset_odometry_to_gps()
+    # Then try resetting to GPS if GPS sensor is installed and reports high quality
+    reset_robot_position_and_heading_to_gps()
 
+<<<<<<< HEAD
     pid_driver.drive(300)
+=======
+    intake_1st_stage.set_velocity(450, RPM)
+    intake_2nd_stage.set_velocity(450, RPM)
+    trigger_driver.drive(-1080)
+>>>>>>> 7c7aa7931467202f730f3b86695f71164ed7baff
 
     # intake_1st_stage.set_velocity(450, RPM)
     # intake_2nd_stage.set_velocity(450, RPM)
     # pid_driver.drive(-1080, False)
 
+<<<<<<< HEAD
     # clamp.set(True)
     # intake_1st_stage.spin(REVERSE)
     # intake_2nd_stage.spin(FORWARD)
@@ -60,6 +68,29 @@ def autonomous_function():
     # # pid_driver.drive(-780, True)
     # wait(100, MSEC)
     # reset_odometry_to_gps()
+=======
+    wait(1000, MSEC)
+    reset_robot_position_and_heading_to_gps()
+
+    trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
+    intake_retract.set(True)
+    trigger_driver.drive(670)
+    intake_retract.set(False)
+    wait(50, MSEC)
+    trigger_turner.turn(-148, FRAME_HEADING_RELATIVE)
+
+    wait(100, MSEC)
+    reset_robot_position_and_heading_to_gps()
+
+    trigger_driver.drive(800)
+    trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
+    wait(50, MSEC)
+    intake_2nd_stage.stop()
+
+    # trigger_driver.drive(-780)
+    wait(100, MSEC)
+    reset_robot_position_and_heading_to_gps()
+>>>>>>> 7c7aa7931467202f730f3b86695f71164ed7baff
 
     log(("Competition", "competition"), "autonomous_end")
 

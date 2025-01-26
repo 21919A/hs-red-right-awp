@@ -1,6 +1,6 @@
 {
 	"extension": {
-		"version": "0.6.0",
+		"version": "0.6.1",
 		"json": 2
 	},
 	"project": {
@@ -9,8 +9,13 @@
 		"creationDate": "9/27/2024, 6:00:00 PM",
 		"platform": "V5",
 		"language": "python",
+<<<<<<< HEAD
 		"slot": 8,
 		"sdkVersion": "V5_1_0_1_19",
+=======
+		"slot": 3,
+		"sdkVersion": "V5_1_0_1_25",
+>>>>>>> 7c7aa7931467202f730f3b86695f71164ed7baff
 		"python": {
 			"main": "build/preprocessed.py"
 		}
