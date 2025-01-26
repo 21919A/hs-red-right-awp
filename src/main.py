@@ -30,7 +30,7 @@ def autonomous_function():
     # Then try resetting to GPS if GPS sensor is installed and reports high quality
     reset_robot_position_and_heading_to_gps()
     
-    pid_driver.drive(300)
+    # pid_driver.drive(300)
 
     intake_1st_stage.set_velocity(450, RPM)
     intake_2nd_stage.set_velocity(450, RPM)
@@ -86,8 +86,6 @@ def autonomous_function():
     # trigger_driver.drive(-780)
     wait(100, MSEC)
     reset_robot_position_and_heading_to_gps()
->>>>>>> 7c7aa7931467202f730f3b86695f71164ed7baff
-
     log(("Competition", "competition"), "autonomous_end")
 
 
