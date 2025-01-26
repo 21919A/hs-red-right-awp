@@ -68,7 +68,7 @@ def autonomous_function():
     # # pid_driver.drive(-780, True)
     # wait(100, MSEC)
     # reset_odometry_to_gps()
-=======
+
     wait(1000, MSEC)
     reset_robot_position_and_heading_to_gps()
 
