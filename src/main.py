@@ -50,7 +50,7 @@ def autonomous_function():
     trigger_turner.turn(-144, FRAME_HEADING_RELATIVE)
     intake_retract.set(False)
     reset_robot_position_and_heading_to_gps()
-    trigger_driver.drive(3000)
+    trigger_driver.drive(1700)
 
     # intake_1st_stage.set_velocity(450, RPM)
     # intake_2nd_stage.set_velocity(450, RPM)
@@ -82,27 +82,27 @@ def autonomous_function():
     # wait(100, MSEC)
     # reset_odometry_to_gps()
 
-    wait(1000, MSEC)
-    reset_robot_position_and_heading_to_gps()
+    # wait(1000, MSEC)
+    # reset_robot_position_and_heading_to_gps()
 
-    trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
-    intake_retract.set(True)
-    trigger_driver.drive(670)
-    intake_retract.set(False)
-    wait(50, MSEC)
-    trigger_turner.turn(-148, FRAME_HEADING_RELATIVE)
+    # trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
+    # intake_retract.set(True)
+    # trigger_driver.drive(670)
+    # intake_retract.set(False)
+    # wait(50, MSEC)
+    # trigger_turner.turn(-148, FRAME_HEADING_RELATIVE)
 
-    wait(100, MSEC)
-    reset_robot_position_and_heading_to_gps()
+    # wait(100, MSEC)
+    # reset_robot_position_and_heading_to_gps()
 
-    trigger_driver.drive(800)
-    trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
-    wait(50, MSEC)
-    intake_2nd_stage.stop()
+    # trigger_driver.drive(800)
+    # trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
+    # wait(50, MSEC)
+    # intake_2nd_stage.stop()
 
-    # trigger_driver.drive(-780)
-    wait(100, MSEC)
-    reset_robot_position_and_heading_to_gps()
+    # # trigger_driver.drive(-780)
+    # wait(100, MSEC)
+    # reset_robot_position_and_heading_to_gps()
     log(("Competition", "competition"), "autonomous_end")
 
 
