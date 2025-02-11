@@ -24,7 +24,7 @@ def autonomous_function():
     log(("Competition", "competition"), "autonomous_begin")
 
     # Reset robot position and inertial heading to the starting autonomous position and heading
-    robot_position.reset(Position(-1500, -600))
+    robot_position.reset(Position(-1500, -1500))
     inertial.set_heading(-90)
 
     # Then try resetting to GPS if GPS sensor is installed and reports high quality
@@ -35,19 +35,19 @@ def autonomous_function():
     intake_1st_stage.set_velocity(600, RPM)
     intake_2nd_stage.set_velocity(600, RPM)
 
-    trigger_driver.drive(-1200)
+    trigger_driver.drive(-1000)
     trigger_turner.turn(-30, FRAME_HEADING_RELATIVE)
-    trigger_driver.drive(-800)
+    trigger_driver.drive(-600)
     clamp.set(True)
     trigger_turner.turn(30, FRAME_HEADING_RELATIVE)
     intake_1st_stage.spin(REVERSE)
     intake_2nd_stage.spin(FORWARD)
     trigger_driver.drive(800)
-    trigger_turner.turn(60, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(70, FRAME_HEADING_RELATIVE)
     reset_robot_position_and_heading_to_gps()
     intake_retract.set(True)
-    trigger_driver.drive(2100)
-    trigger_turner.turn(-130, FRAME_HEADING_RELATIVE)
+    trigger_driver.drive(1250)
+    trigger_turner.turn(-144, FRAME_HEADING_RELATIVE)
     intake_retract.set(False)
     reset_robot_position_and_heading_to_gps()
     trigger_driver.drive(3000)
