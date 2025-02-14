@@ -6,11 +6,11 @@
 	"project": {
 		"name": "hs-red-right-awp",
 		"description": "Red alliance, right side, contributing to Autonomous Win Point",
-		"creationDate": "9/27/2024, 6:00:00 PM",
+		"creationDate": "Fri, 14 Feb 2025 21:25:45 GMT",
 		"platform": "V5",
 		"language": "python",
 		"slot": 1,
-		"sdkVersion": "V5_1_0_1_19",
+		"sdkVersion": "V5_1_0_1_25",
 		"python": {
 			"main": "build/preprocessed.py"
 		}

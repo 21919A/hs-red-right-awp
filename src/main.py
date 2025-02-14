@@ -30,73 +30,21 @@ def autonomous_function():
     # Then try resetting to GPS if GPS sensor is installed and reports high quality
     reset_robot_position_and_heading_to_gps()
     
-    # pid_driver.drive(300)
-
-
-    trigger_driver.drive(-1000)
-    trigger_turner.turn(-30, FRAME_HEADING_RELATIVE)
-    trigger_driver.drive(-600)
+    trigger_mover.move(Position(-500, -1500), REVERSE)
+    trigger_mover.move(Position(20, -1200), REVERSE)
     clamp.set(True)
-    trigger_turner.turn(30, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
     intake.spin_forward()
-    trigger_driver.drive(800)
-    trigger_turner.turn(70, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-780, -1200))
+    trigger_turner.turn(340, FRAME_ABSOLUTE)
     reset_robot_position_and_heading_to_gps()
     intake_retract.set(True)
-    trigger_driver.drive(1250)
-    trigger_turner.turn(-144, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-1208, -25))
+    trigger_turner.turn(196, FRAME_ABSOLUTE)
     intake_retract.set(False)
     reset_robot_position_and_heading_to_gps()
-    trigger_driver.drive(1700)
+    trigger_mover.move(Position(-1676,-1660))
 
-    # pid_driver.drive(-1080, False)
-
-    # clamp.set(True)
-    # intake.spin_forward()
-
-    # wait(1000, MSEC)
-    # reset_odometry_to_gps()
-
-    # pid_turner.turn(40, FRAME_HEADING_RELATIVE)
-    # intake_retract.set(True)
-    # pid_driver.drive(670)
-    # intake_retract.set(False)
-    # wait(50, MSEC)
-    # pid_turner.turn(-148, FRAME_HEADING_RELATIVE)
-
-    # wait(100, MSEC)
-    # reset_odometry_to_gps()
-
-    # pid_driver.drive(800, True)
-    # pid_turner.turn(40, FRAME_HEADING_RELATIVE)
-    # wait(50, MSEC)
-    # intake.stop()
-
-    # # pid_driver.drive(-780, True)
-    # wait(100, MSEC)
-    # reset_odometry_to_gps()
-
-    # wait(1000, MSEC)
-    # reset_robot_position_and_heading_to_gps()
-
-    # trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
-    # intake_retract.set(True)
-    # trigger_driver.drive(670)
-    # intake_retract.set(False)
-    # wait(50, MSEC)
-    # trigger_turner.turn(-148, FRAME_HEADING_RELATIVE)
-
-    # wait(100, MSEC)
-    # reset_robot_position_and_heading_to_gps()
-
-    # trigger_driver.drive(800)
-    # trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
-    # wait(50, MSEC)
-    # intake.stop()
-
-    # # trigger_driver.drive(-780)
-    # wait(100, MSEC)
-    # reset_robot_position_and_heading_to_gps()
     log(("Competition", "competition"), "autonomous_end")
 
 
