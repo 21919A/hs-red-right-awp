@@ -32,16 +32,13 @@ def autonomous_function():
     
     # pid_driver.drive(300)
 
-    intake_1st_stage.set_velocity(600, RPM)
-    intake_2nd_stage.set_velocity(600, RPM)
 
     trigger_driver.drive(-1000)
     trigger_turner.turn(-30, FRAME_HEADING_RELATIVE)
     trigger_driver.drive(-600)
     clamp.set(True)
     trigger_turner.turn(30, FRAME_HEADING_RELATIVE)
-    intake_1st_stage.spin(REVERSE)
-    intake_2nd_stage.spin(FORWARD)
+    intake.spin_forward()
     trigger_driver.drive(800)
     trigger_turner.turn(70, FRAME_HEADING_RELATIVE)
     reset_robot_position_and_heading_to_gps()
@@ -52,13 +49,10 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     trigger_driver.drive(1700)
 
-    # intake_1st_stage.set_velocity(450, RPM)
-    # intake_2nd_stage.set_velocity(450, RPM)
     # pid_driver.drive(-1080, False)
 
     # clamp.set(True)
-    # intake_1st_stage.spin(REVERSE)
-    # intake_2nd_stage.spin(FORWARD)
+    # intake.spin_forward()
 
     # wait(1000, MSEC)
     # reset_odometry_to_gps()
@@ -76,7 +70,7 @@ def autonomous_function():
     # pid_driver.drive(800, True)
     # pid_turner.turn(40, FRAME_HEADING_RELATIVE)
     # wait(50, MSEC)
-    # intake_2nd_stage.stop()
+    # intake.stop()
 
     # # pid_driver.drive(-780, True)
     # wait(100, MSEC)
@@ -98,7 +92,7 @@ def autonomous_function():
     # trigger_driver.drive(800)
     # trigger_turner.turn(40, FRAME_HEADING_RELATIVE)
     # wait(50, MSEC)
-    # intake_2nd_stage.stop()
+    # intake.stop()
 
     # # trigger_driver.drive(-780)
     # wait(100, MSEC)
