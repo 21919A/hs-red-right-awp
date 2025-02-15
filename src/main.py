@@ -25,10 +25,10 @@ def autonomous_function():
 
     robot_position.reset(Position(-1500, -300))
     # inertial.set_heading(-90) # use this for 2-ring
-    inertial.set_heading(0) # use this for 3-ring
+    inertial.set_heading(180) # use this for 3-ring
 
     reset_robot_position_and_heading_to_gps()
-    trigger_driver.drive(300)
+    trigger_driver.drive(-300)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     slow_trigger_driver.drive(-150)
     intake.spin_forward()
@@ -40,6 +40,7 @@ def autonomous_function():
 
     trigger_mover.move(Position(-600, -1200))
     trigger_mover.move(Position(-300, -300), REVERSE)
+    clamp.set(False)
     
     # slow_trigger_mover.move(Position(-600, -600), REVERSE)
     # clamp.set(True)
@@ -47,6 +48,7 @@ def autonomous_function():
 
     # intake.spin_forward()
     # trigger_mover.move(Position(-600, -1200))
+    # clamp.set(False)
 
     log(("Competition", "competition"), "autonomous_end")
 
