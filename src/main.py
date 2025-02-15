@@ -31,7 +31,10 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
     
     trigger_mover.move(Position(-500, -1500), REVERSE)
-    trigger_mover.move(Position(20, -1200), REVERSE)
+    # slow_trigger_mover.move(Position(-250, -1500), REVERSE)
+
+    trigger_mover.move(Position(-350, -1450), REVERSE)
+    slow_trigger_mover.move(Position(-240, -1320), REVERSE)
     clamp.set(True)
     trigger_turner.turn(270, FRAME_ABSOLUTE)
     intake.spin_forward()
