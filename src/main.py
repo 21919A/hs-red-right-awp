@@ -23,7 +23,8 @@ def autonomous_function():
 
     log(("Competition", "competition"), "autonomous_begin")
 
-    robot_position.reset(Position(-1500, -300))
+    # robot_position.reset(Position(-1350, -600)) # use this for 2-ring
+    robot_position.reset(Position(-1500, -300)) # use this for 3-ring
     # inertial.set_heading(-90) # use this for 2-ring
     inertial.set_heading(180) # use this for 3-ring
 
