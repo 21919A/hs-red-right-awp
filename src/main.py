@@ -28,6 +28,7 @@ def autonomous_function():
     # inertial.set_heading(-90) # use this for 2-ring
     inertial.set_heading(180) # use this for 3-ring
 
+    # Use this for 3-ring
     reset_robot_position_and_heading_to_gps()
     trigger_driver.drive(-300)
     trigger_turner.turn(90, FRAME_ABSOLUTE)
@@ -43,6 +44,7 @@ def autonomous_function():
     trigger_mover.move(Position(-300, -300), REVERSE)
     clamp.set(False)
     
+    # Use this for 2-ring
     # slow_trigger_mover.move(Position(-600, -600), REVERSE)
     # clamp.set(True)
     # slow_trigger_mover.move(Position(-250, -1500), REVERSE)
