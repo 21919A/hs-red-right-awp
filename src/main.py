@@ -39,23 +39,23 @@ def autonomous_function():
     trigger_driver.drive(150)
     trigger_mover.move(Position(-1500, -600))
     slow_trigger_mover.move(Position(-600, -600), REVERSE)
-    clamp.set(True)
+    wait_and_clamp()
 
     trigger_mover.move(Position(-600, -1200))
 
 
     trigger_turner.turn(20, FRAME_ABSOLUTE)
     trigger_driver.drive(800)
-    clamp.set(False)
+    unclamp()
     
     # Use this for 2-ring
     # slow_trigger_mover.move(Position(-600, -600), REVERSE)
-    # clamp.set(True)
+    # wait_and_clamp()
     # slow_trigger_mover.move(Position(-250, -1500), REVERSE)
 
     # intake.spin_forward()
     # trigger_mover.move(Position(-600, -1200))
-    # clamp.set(False)
+    # unclamp()
 
     log(("Competition", "competition"), "autonomous_end")
 
