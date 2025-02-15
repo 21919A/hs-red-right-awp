@@ -41,7 +41,7 @@ def autonomous_function():
     clamp.set(True)
 
     trigger_mover.move(Position(-600, -1200))
-    trigger_mover.move(Position(-300, -300), REVERSE)
+    trigger_mover.move(Position(-300, -300))
     clamp.set(False)
     
     # Use this for 2-ring
