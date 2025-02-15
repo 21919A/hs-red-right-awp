@@ -34,6 +34,7 @@ def autonomous_function():
     trigger_turner.turn(90, FRAME_ABSOLUTE)
     slow_trigger_driver.drive(-150)
     intake.spin_forward()
+    wait(1000, MSEC)
 
     trigger_driver.drive(150)
     trigger_mover.move(Position(-1500, -600))
