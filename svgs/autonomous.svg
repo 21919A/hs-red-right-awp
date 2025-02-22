@@ -1,41 +1,17 @@
-<svg version="1.1" width="600" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="-1800 -1800 3600 3600">
+<svg version="1.1" width="600" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="-2100 -2100 4200 4200">
 <g transform="scale(1, -1)">
-<rect x="-1800" y="-1800" width="600" height="600" fill="#444444"/>
-<rect x="-1800" y="-1200" width="600" height="600" fill="#333333"/>
-<rect x="-1800" y="-600" width="600" height="600" fill="#444444"/>
-<rect x="-1800" y="0" width="600" height="600" fill="#333333"/>
-<rect x="-1800" y="600" width="600" height="600" fill="#444444"/>
-<rect x="-1800" y="1200" width="600" height="600" fill="#333333"/>
-<rect x="-1200" y="-1800" width="600" height="600" fill="#333333"/>
-<rect x="-1200" y="-1200" width="600" height="600" fill="#444444"/>
-<rect x="-1200" y="-600" width="600" height="600" fill="#333333"/>
-<rect x="-1200" y="0" width="600" height="600" fill="#444444"/>
-<rect x="-1200" y="600" width="600" height="600" fill="#333333"/>
-<rect x="-1200" y="1200" width="600" height="600" fill="#444444"/>
-<rect x="-600" y="-1800" width="600" height="600" fill="#444444"/>
-<rect x="-600" y="-1200" width="600" height="600" fill="#333333"/>
-<rect x="-600" y="-600" width="600" height="600" fill="#444444"/>
-<rect x="-600" y="0" width="600" height="600" fill="#333333"/>
-<rect x="-600" y="600" width="600" height="600" fill="#444444"/>
-<rect x="-600" y="1200" width="600" height="600" fill="#333333"/>
-<rect x="0" y="-1800" width="600" height="600" fill="#333333"/>
-<rect x="0" y="-1200" width="600" height="600" fill="#444444"/>
-<rect x="0" y="-600" width="600" height="600" fill="#333333"/>
-<rect x="0" y="0" width="600" height="600" fill="#444444"/>
-<rect x="0" y="600" width="600" height="600" fill="#333333"/>
-<rect x="0" y="1200" width="600" height="600" fill="#444444"/>
-<rect x="600" y="-1800" width="600" height="600" fill="#444444"/>
-<rect x="600" y="-1200" width="600" height="600" fill="#333333"/>
-<rect x="600" y="-600" width="600" height="600" fill="#444444"/>
-<rect x="600" y="0" width="600" height="600" fill="#333333"/>
-<rect x="600" y="600" width="600" height="600" fill="#444444"/>
-<rect x="600" y="1200" width="600" height="600" fill="#333333"/>
-<rect x="1200" y="-1800" width="600" height="600" fill="#333333"/>
-<rect x="1200" y="-1200" width="600" height="600" fill="#444444"/>
-<rect x="1200" y="-600" width="600" height="600" fill="#333333"/>
-<rect x="1200" y="0" width="600" height="600" fill="#444444"/>
-<rect x="1200" y="600" width="600" height="600" fill="#333333"/>
-<rect x="1200" y="1200" width="600" height="600" fill="#444444"/>
+<rect x="-2100" y="-2100" width="4200" height="4200" fill="#ffffff"/>
+<rect x="-1800" y="-1800" width="3600" height="3600" fill="none" stroke="#333333" stroke-width="3"/>
+<line x1="-1800" y1="-1200" x2="1800" y2="-1200" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="-600" x2="1800" y2="-600" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="0" x2="1800" y2="0" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="600" x2="1800" y2="600" stroke="#444444" stroke-width="3"/>
+<line x1="-1800" y1="1200" x2="1800" y2="1200" stroke="#444444" stroke-width="3"/>
+<line x1="-1200" y1="-1800" x2="-1200" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="-600" y1="-1800" x2="-600" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="0" y1="-1800" x2="0" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="600" y1="-1800" x2="600" y2="1800" stroke="#444444" stroke-width="3"/>
+<line x1="1200" y1="-1800" x2="1200" y2="1800" stroke="#444444" stroke-width="3"/>
 <line x1="-1490" y1="-1800" x2="-1490" y2="1800" stroke="#cccccc" stroke-width="25"/>
 <line x1="-30" y1="-1800" x2="-30" y2="1800" stroke="#cccccc" stroke-width="25"/>
 <line x1="30" y1="-1800" x2="30" y2="1800" stroke="#cccccc" stroke-width="25"/>
@@ -123,11 +99,26 @@
 <path d="M -1579,0 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -179,-90 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -1289,-1200 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
-<polyline points="-1497,-297 -1497,3 -1647,3 -1497,3 -1497,-597 -597,-597 -597,-1197 -323,-445" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1503,-303 -1503,-3 -1653,-3 -1503,-3 -1503,-603 -603,-603 -603,-1203 -329,-451" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1500,-300 -1500,0 -1650,0 -1500,0 -1500,-600 -600,-600 -600,-1200 -326,-448" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
-<polyline points="-1500,-300 -1500,0 -1650,0 -1500,0 -1500,-600 -600,-600 -600,-1200 -326,-448" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
-<polyline points="-1500,-300 -1500,0 -1650,0 -1500,0 -1500,-600 -600,-600 -600,-1200 -326,-448" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
-<path d="M -1500,-300 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
+<g transform="translate(-1500 -300)  rotate(-180)">
+<rect x="-195" y="-190" width="120" height="410" fill="none" stroke="#7777cc" stroke-width="25"/>
+<rect x="75" y="-190" width="120" height="410" fill="none" stroke="#7777cc" stroke-width="25"/>
+<line x1="-75" y1="0" x2="75" y2="0" stroke="#7777cc" stroke-width="25"/>
+<line x1="0" y1="-410" x2="0" y2="410" stroke="#5555ff" stroke-width="25"/>
+<polyline points="-60,306 0,410 60,306" fill="none" stroke="#0000ff" stroke-width="25"/>
+<polyline points="-60,-514 0,-410 60,-514" fill="none" stroke="#0000ff" stroke-width="25"/>
+</g>
+<path d="M -1500,-300 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="none" stroke="#7777cc" stroke-width="3" fill-rule="evenodd"/>
+<polyline points="-1500,-300 -1500,0 -1650,0" fill="none" stroke="#ff0000" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
+<polyline points="-1650,0 -1500,0 -1500,-600 -600,-600" fill="none" stroke="#00ff00" stroke-width="25" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
+<polyline points="-600,-600 -600,-1200 -326,-448" fill="none" stroke="#00ff00" stroke-width="75" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
+</polyline>
+<line x1="-364" y1="-448" x2="-289" y2="-448" stroke="#00ff00" stroke-width="25" stroke-dasharray="25,25">
+<animateTransform attributeName="transform" type="rotate" to="360 -326 -448" dur="2000ms" repeatCount="indefinite" from="0 -326 -448"/>
+</line>
 </g>
 </svg>
