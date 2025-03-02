@@ -114,7 +114,7 @@
 <line x1="-838" y1="-690" x2="-663" y2="-690" stroke="#ff0000" stroke-width="25" stroke-dasharray="75,25">
 <animateTransform attributeName="transform" type="rotate" to="360 -750 -690" dur="2000ms" repeatCount="indefinite" from="0 -750 -690"/>
 </line>
-<polyline points="-750,-690 -600,-1200 -1300,-1480" fill="none" stroke="#00ff00" stroke-width="75" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
+<polyline points="-750,-690 -600,-1200 -1450,-1560" fill="none" stroke="#00ff00" stroke-width="75" stroke-dasharray="25,50" stroke-linejoin="round" stroke-dashoffset="0">
 <animate attributeName="stroke-dashoffset" values="75;0" dur="1000ms" repeatCount="indefinite"/>
 </polyline>
 </g>

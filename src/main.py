@@ -40,7 +40,8 @@ def autonomous_function():
 
     trigger_mover.move(Position(-600, -1200))
     wait(1000, MSEC)
-    trigger_mover.move(Position(-1300, -1480))
+    trigger_mover.move(Position(-1450, -1560))
+    trigger_turner.turn(270, FRAME_ABSOLUTE)
 
     log(("Competition", "competition"), "autonomous_end")
 
