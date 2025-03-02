@@ -24,9 +24,9 @@ def autonomous_function():
     log(("Competition", "competition"), "autonomous_begin")
 
     # robot_position.reset(Position(-1350, -600)) # use this for 2-ring
-    robot_position.reset(Position(-1250, -800)) # use this for 3-ring
+    robot_position.reset(Position(-1250, -800))  # use this for 3-ring
     # inertial.set_heading(-90) # use this for 2-ring
-    inertial.set_heading(270) # use this for 3-ring
+    inertial.set_heading(270)  # use this for 3-ring
 
     reset_robot_position_and_heading_to_gps()
     trigger_mover.move(Position(-970, -800), REVERSE)
