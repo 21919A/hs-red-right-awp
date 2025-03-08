@@ -30,7 +30,7 @@ def autonomous_function():
 
     reset_robot_position_and_heading_to_gps()
     trigger_mover.move(Position(-970, -800), REVERSE)
-    trigger_mover.move(Position(-750, -690), REVERSE)
+    slow_trigger_mover.move(Position(-750, -690), REVERSE)
 
     clamp.set(True)
 
@@ -40,8 +40,8 @@ def autonomous_function():
 
     trigger_mover.move(Position(-600, -1200))
     wait(1000, MSEC)
-    trigger_mover.move(Position(-1450, -1560))
-    trigger_turner.turn(270, FRAME_ABSOLUTE)
+    trigger_mover.move(Position(-430, -430))
+    trigger_turner.turn(45, FRAME_ABSOLUTE)
 
     log(("Competition", "competition"), "autonomous_end")
 
